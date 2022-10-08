@@ -1,3 +1,34 @@
 body {
-    background-color: rgb(33, 1, 33);
+	font-family: sans-serif;
+	color: #E2CFEA;
+	display: flex;
+	background-color: #2E4057;
+	margin: 0;
+	/* flex-direction: column; */
+	align-items: center;
+	justify-content: flex-start;
+    height: 900px;
+}
+
+.blank {
+	flex: 1;
+}
+
+#gridContainer {
+	background-color: #083D77;
+	color: inherit;
+	flex: 1;
+	display: grid;
+    min-width: 500px;
+	width: 500px;
+	height: 700px;
+	box-shadow: 10px 10px 5px black;
+}
+
+.grid {
+	color: inherit;
+	font-family: inherit;
+	display: grid;
+	/* align-items: center;
+	justify-content: center; */
 }
